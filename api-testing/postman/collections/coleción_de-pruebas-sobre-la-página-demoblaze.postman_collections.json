@@ -1,0 +1,416 @@
+{
+  "info": {
+    "_postman_id": "46ae2c51-9d25-42ad-bf3d-0489d7c89ff2",
+    "name": "colección de pruebas sobre la página demoblaze",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53286456",
+    "_collection_link": "https://go.postman.co/collection/53286456-46ae2c51-9d25-42ad-bf3d-0489d7c89ff2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "gets",
+      "item": [
+        {
+          "name": "get index",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"status code is 200\", function(){",
+                  "pm.response.to.have.status(200);",
+                  "})",
+                  "",
+                  "pm.test(\"Es HTML\", function () {",
+                  "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                  "        .to.include(\"text/html\");",
+                  "});",
+                  "",
+                  "pm.test(\"Contiene objeto Store\", function () {",
+                  "pm.expect(pm.response.text()).to.include(\"Store\");",
+                  "});",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});",
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{urlBase}}/",
+              "host": [
+                "{{urlBase}}"
+              ],
+              "path": [
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "list products",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"status code is 200\", function(){",
+                  "pm.response.to.have.status(200);",
+                  "})",
+                  "",
+                  "pm.test(\"Es HTML\", function () {",
+                  "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                  "        .to.include(\"text/html\");",
+                  "});",
+                  "",
+                  "pm.test(\"Contiene objeto Store\", function () {",
+                  "pm.expect(pm.response.text()).to.include(\"Store\");",
+                  "});",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{urlBase}}/prod.html",
+              "host": [
+                "{{urlBase}}"
+              ],
+              "path": [
+                "prod.html"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "listar a product",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"status code is 200\", function(){",
+                  "pm.response.to.have.status(200);",
+                  "})",
+                  "",
+                  "pm.test(\"Es HTML\", function () {",
+                  "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                  "        .to.include(\"text/html\");",
+                  "});",
+                  "",
+                  "pm.test(\"Contiene objeto nexus\", function () {",
+                  "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                  "});",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{urlBase}}/prod.html?idp_=3#",
+              "host": [
+                "{{urlBase}}"
+              ],
+              "path": [
+                "prod.html"
+              ],
+              "query": [
+                {
+                  "key": "idp_",
+                  "value": "3"
+                }
+              ],
+              "hash": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get cart",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"status code is 200\", function(){",
+                  "pm.response.to.have.status(200);",
+                  "})",
+                  "",
+                  "pm.test(\"Es HTML\", function () {",
+                  "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                  "        .to.include(\"text/html\");",
+                  "});",
+                  "",
+                  "pm.test(\"Contiene objeto nexus\", function () {",
+                  "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                  "});",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{urlBase}}/cart.html",
+              "host": [
+                "{{urlBase}}"
+              ],
+              "path": [
+                "cart.html"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "posts",
+      "item": [
+        {
+          "name": "sign-up",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code es 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"mensaje de error cuando el usuario esta duplicado\", function () {",
+                  "    const jsonData = pm.response.json();",
+                  "    if (jsonData.errorMessage) {",
+                  "        pm.expect(jsonData.errorMessage).to.eql(\"This user already exist.\");",
+                  "    }",
+                  "});",
+                  "",
+                  "pm.test(\"respuesta es json\", function(){",
+                  "pm.response.to.be.json;",
+                  "})",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});",
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api.demoblaze.com/signup",
+              "protocol": "https",
+              "host": [
+                "api",
+                "demoblaze",
+                "com"
+              ],
+              "path": [
+                "signup"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "post login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code es 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"mensaje de error cuando el usuario es incorrecto\", function () {",
+                  "    const jsonData = pm.response.json();",
+                  "    if (jsonData.errorMessage) {",
+                  "        pm.expect(jsonData.errorMessage).to.eql(\"Wrong password.\");",
+                  "    }",
+                  "});",
+                  "",
+                  "pm.test(\"respuesta es json\", function(){",
+                  "pm.response.to.be.json;",
+                  "})",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});",
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api.demoblaze.com/login",
+              "protocol": "https",
+              "host": [
+                "api",
+                "demoblaze",
+                "com"
+              ],
+              "path": [
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "place order",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code es 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"mensaje contiente Samsung galaxy s6\", function () {",
+                  "    const jsonData = pm.response.json();",
+                  "    if (jsonData.errorMessage) {",
+                  "        pm.expect(jsonData.errorMessage).to.eql(\"Samsung galaxy s6\");",
+                  "    }",
+                  "});",
+                  "",
+                  "pm.test(\"respuesta es json\", function(){",
+                  "pm.response.to.be.json;",
+                  "})",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api.demoblaze.com/view",
+              "protocol": "https",
+              "host": [
+                "api",
+                "demoblaze",
+                "com"
+              ],
+              "path": [
+                "view"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

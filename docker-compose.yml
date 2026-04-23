@@ -1,0 +1,48 @@
+services:
+
+  api-tests:
+    image: postman/newman:latest
+    container_name: demoblaze-api-tests
+    volumes:
+      - ./api-testing/postman:/etc/newman/postman
+      - ./api-testing/newman/results-newman:/etc/newman/results
+    command: >
+      run /etc/newman/postman/collections/coleción_de-pruebas-sobre-la-página-demoblaze.postman_collections.json
+      -e /etc/newman/postman/enviroment/ambiente.postman_environment.json
+      --env-var "urlBase=https://www.demoblaze.com/"
+      -r cli,html
+      --reporter-html-export /etc/newman/results/report.html
+    networks:
+      - qa-network
+
+  cypress-tests:
+    build:
+      context: ./automation
+      dockerfile: docker/Dockerfile.cypress
+    container_name: demoblaze-cypress-tests
+    volumes:
+      - ./automation/cypress:/e2e
+    command: ["cypress", "run"]
+    depends_on:
+      - api-tests
+    networks:
+      - qa-network
+
+  zap-tests:
+    image: zaproxy/zap-stable:latest
+    container_name: demoblaze-zap-tests
+    user: root
+    volumes:
+      - ./security/docker-report:/zap/wrk
+    command: >
+      zap-baseline.py -t https://www.demoblaze.com/
+      -r reporte.html
+      -I
+    depends_on:
+      - cypress-tests
+    networks:
+      - qa-network
+
+networks:
+  qa-network:
+    driver: bridge
