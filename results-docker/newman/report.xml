@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="colección de pruebas sobre la página demoblaze" tests="7" time="2.369">
+  <testsuite name="gets / get index" id="dd8f271f-02a6-421c-a444-a4a6b34993b4" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.517">
+    <testcase name="status code is 200" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto Store" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+  <testsuite name="gets / list products" id="fb2a68c1-c69a-45f4-ae0e-145fb9a1d89f" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.293">
+    <testcase name="status code is 200" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto Store" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+  <testsuite name="gets / listar a product" id="0bf5eb20-b887-46cb-9a7d-f4cfea18d477" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.273">
+    <testcase name="status code is 200" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto nexus" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+  <testsuite name="gets / get cart" id="4623eafc-edcf-44be-b392-77d28609e72b" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.287">
+    <testcase name="status code is 200" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto nexus" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+  <testsuite name="posts / sign-up" id="f85d5bba-50e0-460d-8222-67c6241e017d" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.502">
+    <testcase name="Status code es 200" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="mensaje de error cuando el usuario esta duplicado" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="respuesta es json" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+  <testsuite name="posts / post login" id="c31f06ee-3559-4dfe-be15-4f7fe389667f" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.247">
+    <testcase name="Status code es 200" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="mensaje de error cuando el usuario es incorrecto" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="respuesta es json" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+  <testsuite name="posts / place order" id="0a9fe058-4b10-4584-bdeb-5f15047ae812" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.250">
+    <testcase name="Status code es 200" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="mensaje contiente Samsung galaxy s6" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="respuesta es json" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  </testsuite>
+</testsuites>

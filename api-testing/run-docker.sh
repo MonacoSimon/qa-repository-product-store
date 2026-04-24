@@ -15,7 +15,7 @@ docker run --rm -t \
   -v "$POSTMAN_DIR":/postman \
   -v "$RESULTS_DIR":/results \
   postman/newman \
-  run /postman/collections/coleción_de-pruebas-sobre-la-página-demoblaze.postman_collections.json \
+  run /postman/collections/collection.json \
   -e /postman/enviroment/ambiente.postman_environment.json \
   --env-var "urlBase=https://www.demoblaze.com/" \
   -r cli,html \

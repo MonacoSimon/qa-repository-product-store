@@ -5,16 +5,15 @@ set -e
 BASE_DIR=$(pwd)
 
 TEST_PLAN_DIR="$BASE_DIR/test-plan"
-RESULTS_DIR="$BASE_DIR/results-docker"
-REPORTS_DIR="$BASE_DIR/reports"
+RESULTS_DIR="$BASE_DIR/../../results-docker/jmeter"
 
 mkdir -p "$RESULTS_DIR"
-mkdir -p "$REPORTS_DIR"
 
 echo "Ejecutando JMeter en Docker..."
 
 for test in "$TEST_PLAN_DIR"/*.jmx; do
     filename=$(basename "$test" .jmx)
+    timestamp=$(date +%Y%m%d-%H%M%S)
 
     echo "Ejecutando: $filename"
 
@@ -26,7 +25,8 @@ for test in "$TEST_PLAN_DIR"/*.jmx; do
         -t /tests/$(basename "$test") \
         -l /results/${filename}.jtl \
         -e \
-        -o /results/${filename}-report
+        -o /results/${filename}-report-$timestamp \
+        -j /results/${filename}.log
 
     echo "✔ Terminado: $filename"
     echo "-----------------------------"
