@@ -1,52 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="colección de pruebas sobre la página demoblaze" tests="7" time="2.369">
-  <testsuite name="gets / get index" id="dd8f271f-02a6-421c-a444-a4a6b34993b4" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.517">
-    <testcase name="status code is 200" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Es HTML" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Contiene objeto Store" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.517" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+<testsuites name="colección de pruebas sobre la página demoblaze" tests="7" time="22.566">
+  <testsuite name="gets / get index" id="2b507a8b-4d19-4a2d-a96f-03617ed27b26" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="1" errors="0" time="4.571">
+    <testcase name="status code is 200" time="4.571" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="4.571" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto Store" time="4.571" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="4.571" classname="ColeccionDePruebasSobreLaPaginaDemoblaze">
+      <failure type="AssertionFailure" message="expected 4571 to be below 2000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 46ae2c51-9d25-42ad-bf3d-0489d7c89ff2.]]>
+        <![CDATA[Collection name: colección de pruebas sobre la página demoblaze.]]>
+        <![CDATA[Request name: gets / get index.]]>
+        <![CDATA[Test description: Tiempo de respuesta aceptable.]]>
+        <![CDATA[Error message: expected 4571 to be below 2000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 4571 to be below 2000
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="La respuesta no está vacía" time="4.571" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
-  <testsuite name="gets / list products" id="fb2a68c1-c69a-45f4-ae0e-145fb9a1d89f" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.293">
-    <testcase name="status code is 200" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Es HTML" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Contiene objeto Store" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.293" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  <testsuite name="gets / list products" id="d29b8def-ff86-48b5-b17f-45c0676234cb" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="0" errors="0" time="1.693">
+    <testcase name="status code is 200" time="1.693" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="1.693" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto Store" time="1.693" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="1.693" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="1.693" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
-  <testsuite name="gets / listar a product" id="0bf5eb20-b887-46cb-9a7d-f4cfea18d477" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.273">
-    <testcase name="status code is 200" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Es HTML" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Contiene objeto nexus" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.273" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  <testsuite name="gets / listar a product" id="1b0ef98a-5b5d-42e7-a07a-55b0d20f9015" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="0" errors="0" time="1.644">
+    <testcase name="status code is 200" time="1.644" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="1.644" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto nexus" time="1.644" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="1.644" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="1.644" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
-  <testsuite name="gets / get cart" id="4623eafc-edcf-44be-b392-77d28609e72b" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.287">
-    <testcase name="status code is 200" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Es HTML" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Contiene objeto nexus" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.287" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  <testsuite name="gets / get cart" id="ca9df20b-2dcf-4afb-8c44-893e222b8954" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="1" errors="0" time="2.372">
+    <testcase name="status code is 200" time="2.372" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Es HTML" time="2.372" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Contiene objeto nexus" time="2.372" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="2.372" classname="ColeccionDePruebasSobreLaPaginaDemoblaze">
+      <failure type="AssertionFailure" message="expected 2372 to be below 2000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 46ae2c51-9d25-42ad-bf3d-0489d7c89ff2.]]>
+        <![CDATA[Collection name: colección de pruebas sobre la página demoblaze.]]>
+        <![CDATA[Request name: gets / get cart.]]>
+        <![CDATA[Test description: Tiempo de respuesta aceptable.]]>
+        <![CDATA[Error message: expected 2372 to be below 2000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 2372 to be below 2000
+   at Object.eval sandbox-script.js:4:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="La respuesta no está vacía" time="2.372" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
-  <testsuite name="posts / sign-up" id="f85d5bba-50e0-460d-8222-67c6241e017d" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.502">
-    <testcase name="Status code es 200" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="mensaje de error cuando el usuario esta duplicado" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="respuesta es json" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.502" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  <testsuite name="posts / sign-up" id="ed9a6f09-f600-4bf5-b627-4894132e455b" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="1" errors="0" time="5.294">
+    <testcase name="Status code es 200" time="5.294" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="mensaje de error cuando el usuario esta duplicado" time="5.294" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="respuesta es json" time="5.294" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="5.294" classname="ColeccionDePruebasSobreLaPaginaDemoblaze">
+      <failure type="AssertionFailure" message="expected 5294 to be below 2000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 46ae2c51-9d25-42ad-bf3d-0489d7c89ff2.]]>
+        <![CDATA[Collection name: colección de pruebas sobre la página demoblaze.]]>
+        <![CDATA[Request name: posts / sign-up.]]>
+        <![CDATA[Test description: Tiempo de respuesta aceptable.]]>
+        <![CDATA[Error message: expected 5294 to be below 2000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 5294 to be below 2000
+   at Object.eval sandbox-script.js:4:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="La respuesta no está vacía" time="5.294" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
-  <testsuite name="posts / post login" id="c31f06ee-3559-4dfe-be15-4f7fe389667f" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.247">
-    <testcase name="Status code es 200" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="mensaje de error cuando el usuario es incorrecto" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="respuesta es json" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.247" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  <testsuite name="posts / post login" id="a3fc993f-6235-42c7-9d2a-693c40327255" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="0" errors="0" time="1.638">
+    <testcase name="Status code es 200" time="1.638" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="mensaje de error cuando el usuario es incorrecto" time="1.638" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="respuesta es json" time="1.638" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="1.638" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="La respuesta no está vacía" time="1.638" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
-  <testsuite name="posts / place order" id="0a9fe058-4b10-4584-bdeb-5f15047ae812" timestamp="2026-04-24T19:56:57.498Z" tests="5" failures="0" errors="0" time="0.250">
-    <testcase name="Status code es 200" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="mensaje contiente Samsung galaxy s6" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="respuesta es json" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="Tiempo de respuesta aceptable" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
-    <testcase name="La respuesta no está vacía" time="0.250" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+  <testsuite name="posts / place order" id="b2291fb0-d5e0-490f-b9e8-a06ab8f929e2" timestamp="2026-05-09T17:32:29.221Z" tests="5" failures="1" errors="0" time="5.354">
+    <testcase name="Status code es 200" time="5.354" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="mensaje contiente Samsung galaxy s6" time="5.354" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="respuesta es json" time="5.354" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
+    <testcase name="Tiempo de respuesta aceptable" time="5.354" classname="ColeccionDePruebasSobreLaPaginaDemoblaze">
+      <failure type="AssertionFailure" message="expected 5354 to be below 2000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 46ae2c51-9d25-42ad-bf3d-0489d7c89ff2.]]>
+        <![CDATA[Collection name: colección de pruebas sobre la página demoblaze.]]>
+        <![CDATA[Request name: posts / place order.]]>
+        <![CDATA[Test description: Tiempo de respuesta aceptable.]]>
+        <![CDATA[Error message: expected 5354 to be below 2000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 5354 to be below 2000
+   at Object.eval sandbox-script.js:4:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="La respuesta no está vacía" time="5.354" classname="ColeccionDePruebasSobreLaPaginaDemoblaze"/>
   </testsuite>
 </testsuites>

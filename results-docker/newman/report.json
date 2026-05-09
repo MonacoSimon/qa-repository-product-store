@@ -7,11 +7,11 @@
     },
     "item": [
       {
-        "id": "7c82ad11-7697-479c-969b-5929323b2d1d",
+        "id": "48d7054c-6cc1-4062-88dc-7a542a8d7524",
         "name": "gets",
         "item": [
           {
-            "id": "dd8f271f-02a6-421c-a444-a4a6b34993b4",
+            "id": "2b507a8b-4d19-4a2d-a96f-03617ed27b26",
             "name": "get index",
             "request": {
               "url": {
@@ -31,7 +31,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "92730155-0a0f-4a04-808e-ffda8069da55",
+                  "id": "8ad1fc7a-d9d1-4f9a-8380-ebe35c80edf4",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -57,13 +57,13 @@
                     "});",
                     ""
                   ],
-                  "_lastExecutionId": "e51ef865-c441-4f46-a6e5-12d267ca5a73"
+                  "_lastExecutionId": "18951e9f-b6d9-44f4-b4af-25fa4f647471"
                 }
               }
             ]
           },
           {
-            "id": "fb2a68c1-c69a-45f4-ae0e-145fb9a1d89f",
+            "id": "d29b8def-ff86-48b5-b17f-45c0676234cb",
             "name": "list products",
             "request": {
               "url": {
@@ -83,7 +83,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "dd824102-d238-443e-bdbb-6d9819789d38",
+                  "id": "67c8890c-cb42-4b0d-b556-73a7451de115",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -108,13 +108,13 @@
                     "pm.expect(pm.response.text().length).to.be.above(0);",
                     "});"
                   ],
-                  "_lastExecutionId": "2eca8d74-ced3-452a-a742-29aad6162a3c"
+                  "_lastExecutionId": "500f9bb2-be66-40e4-810f-0c633e874bc7"
                 }
               }
             ]
           },
           {
-            "id": "0bf5eb20-b887-46cb-9a7d-f4cfea18d477",
+            "id": "1b0ef98a-5b5d-42e7-a07a-55b0d20f9015",
             "name": "listar a product",
             "request": {
               "url": {
@@ -140,7 +140,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "593a97cf-8e1e-47ca-85e0-4979168614ac",
+                  "id": "f359903f-0884-4f05-8da1-57a21fbb219e",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -165,13 +165,13 @@
                     "pm.expect(pm.response.text().length).to.be.above(0);",
                     "});"
                   ],
-                  "_lastExecutionId": "115fbf4d-a34f-4dfa-b3b7-d3189f0024d1"
+                  "_lastExecutionId": "ae6481ab-98bc-493f-b86e-783da1a58522"
                 }
               }
             ]
           },
           {
-            "id": "4623eafc-edcf-44be-b392-77d28609e72b",
+            "id": "ca9df20b-2dcf-4afb-8c44-893e222b8954",
             "name": "get cart",
             "request": {
               "url": {
@@ -191,7 +191,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "906da724-e2d2-4dde-ba22-c69a7476ee8b",
+                  "id": "2c12d24d-8925-4f18-a3bb-4794d3b0ff58",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -216,7 +216,7 @@
                     "pm.expect(pm.response.text().length).to.be.above(0);",
                     "});"
                   ],
-                  "_lastExecutionId": "2d103300-f840-4117-b301-5f8e1e8aa2d7"
+                  "_lastExecutionId": "9781d3fe-237c-44eb-8ea0-6b35b0086018"
                 }
               }
             ]
@@ -225,11 +225,11 @@
         "event": []
       },
       {
-        "id": "2aec9c05-934a-46bf-8381-526f17dbefed",
+        "id": "f0273817-b8d7-4f25-8442-4bbf49be1fef",
         "name": "posts",
         "item": [
           {
-            "id": "f85d5bba-50e0-460d-8222-67c6241e017d",
+            "id": "ed9a6f09-f600-4bf5-b627-4894132e455b",
             "name": "sign-up",
             "request": {
               "url": {
@@ -261,7 +261,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "db92ef57-653e-4cd4-862b-e268407c7240",
+                  "id": "f4f87fc8-05ac-4e67-9a16-d1c444ace3af",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -289,13 +289,13 @@
                     "});",
                     ""
                   ],
-                  "_lastExecutionId": "76591551-346b-46fa-aac7-f2ffbe87feb0"
+                  "_lastExecutionId": "ef703c88-8646-4a18-abc9-853da01b5ac3"
                 }
               }
             ]
           },
           {
-            "id": "c31f06ee-3559-4dfe-be15-4f7fe389667f",
+            "id": "a3fc993f-6235-42c7-9d2a-693c40327255",
             "name": "post login",
             "request": {
               "url": {
@@ -327,7 +327,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "a10a74b8-b508-47a3-bd77-7887f5b88f69",
+                  "id": "5e3fe126-787f-41b6-b8b6-c27145027351",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -355,13 +355,13 @@
                     "});",
                     ""
                   ],
-                  "_lastExecutionId": "2dd8965b-4637-4205-a8cc-3bd8d097c982"
+                  "_lastExecutionId": "69a24a31-5a18-49fa-91d8-d7edc17e372c"
                 }
               }
             ]
           },
           {
-            "id": "0a9fe058-4b10-4584-bdeb-5f15047ae812",
+            "id": "b2291fb0-d5e0-490f-b9e8-a06ab8f929e2",
             "name": "place order",
             "request": {
               "url": {
@@ -393,7 +393,7 @@
               {
                 "listen": "test",
                 "script": {
-                  "id": "02de3be6-5c33-4d6d-898e-e01c90d7957d",
+                  "id": "b22821e7-186c-4140-920b-2a82326bd94b",
                   "type": "text/javascript",
                   "packages": {},
                   "exec": [
@@ -420,7 +420,7 @@
                     "pm.expect(pm.response.text().length).to.be.above(0);",
                     "});"
                   ],
-                  "_lastExecutionId": "01bc0da8-d905-4290-ba94-e5a3a8c81fb3"
+                  "_lastExecutionId": "494e96fc-d566-46bd-9766-21c0b8523923"
                 }
               }
             ]
@@ -454,7 +454,7 @@
     ]
   },
   "globals": {
-    "id": "c950c4dd-8608-4a7a-bdb2-e6e7e1aede20",
+    "id": "dbce3365-e158-4bb4-9f85-8e40491ee8da",
     "values": []
   },
   "run": {
@@ -492,7 +492,7 @@
       "assertions": {
         "total": 35,
         "pending": 0,
-        "failed": 0
+        "failed": 4
       },
       "testScripts": {
         "total": 7,
@@ -506,10 +506,10 @@
       }
     },
     "timings": {
-      "responseAverage": 338.42857142857144,
-      "responseMin": 247,
-      "responseMax": 517,
-      "responseSd": 109.42167080069802,
+      "responseAverage": 3223.714285714286,
+      "responseMin": 1638,
+      "responseMax": 5354,
+      "responseSd": 1635.2312823997638,
       "dnsAverage": 0,
       "dnsMin": 0,
       "dnsMax": 0,
@@ -518,8 +518,8 @@
       "firstByteMin": 0,
       "firstByteMax": 0,
       "firstByteSd": 0,
-      "started": 1777060617498,
-      "completed": 1777060620074
+      "started": 1778347949221,
+      "completed": 1778347972092
     },
     "executions": [
       {
@@ -532,11 +532,11 @@
           "eof": false,
           "bof": true,
           "cr": false,
-          "ref": "3a7bf427-9acf-41cd-9e58-e1e361602c8e",
-          "httpRequestId": "c74232a3-64f6-4039-aa7b-6617b0fc12dd"
+          "ref": "f1fa01f6-ca77-44b5-9a9f-6602f0346b7b",
+          "httpRequestId": "98f66155-de47-4077-a37e-e9e54d43a288"
         },
         "item": {
-          "id": "dd8f271f-02a6-421c-a444-a4a6b34993b4",
+          "id": "2b507a8b-4d19-4a2d-a96f-03617ed27b26",
           "name": "get index",
           "request": {
             "url": {
@@ -556,7 +556,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "92730155-0a0f-4a04-808e-ffda8069da55",
+                "id": "8ad1fc7a-d9d1-4f9a-8380-ebe35c80edf4",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -582,7 +582,7 @@
                   "});",
                   ""
                 ],
-                "_lastExecutionId": "e51ef865-c441-4f46-a6e5-12d267ca5a73"
+                "_lastExecutionId": "18951e9f-b6d9-44f4-b4af-25fa4f647471"
               }
             }
           ]
@@ -620,7 +620,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "c90de5ae-32cd-4808-b3a6-2de83726ecc3",
+              "value": "993c0ff1-25cc-4da4-ae93-23bad674305c",
               "system": true
             },
             {
@@ -642,17 +642,17 @@
           "method": "GET"
         },
         "response": {
-          "id": "3274c797-0948-4a6d-bda3-0003f1a204f9",
+          "id": "31499135-8ec5-4d36-987d-e0cc027401bf",
           "status": "OK",
           "code": 200,
           "header": [
             {
               "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:57 GMT"
+              "value": "Sat, 09 May 2026 17:32:33 GMT"
             },
             {
               "key": "expires",
-              "value": "Fri, 24 Apr 2026 19:57:07 GMT"
+              "value": "Sat, 09 May 2026 17:32:43 GMT"
             },
             {
               "key": "cache-control",
@@ -664,7 +664,7 @@
             },
             {
               "key": "x-cloud-trace-context",
-              "value": "c4e05e7845f2f8be87207ec16d5700b2"
+              "value": "fbfb4fda22e32c0774c5fa95cfac9e99;o=1"
             },
             {
               "key": "content-type",
@@ -17917,10 +17917,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 517,
+          "responseTime": 4571,
           "responseSize": 17232
         },
-        "id": "dd8f271f-02a6-421c-a444-a4a6b34993b4",
+        "id": "2b507a8b-4d19-4a2d-a96f-03617ed27b26",
         "assertions": [
           {
             "assertion": "status code is 200",
@@ -17936,7 +17936,14 @@
           },
           {
             "assertion": "Tiempo de respuesta aceptable",
-            "skipped": false
+            "skipped": false,
+            "error": {
+              "name": "AssertionError",
+              "index": 3,
+              "test": "Tiempo de respuesta aceptable",
+              "message": "expected 4571 to be below 2000",
+              "stack": "AssertionError: expected 4571 to be below 2000\n   at Object.eval sandbox-script.js:4:1)"
+            }
           },
           {
             "assertion": "La respuesta no está vacía",
@@ -17946,15 +17953,15 @@
       },
       {
         "cursor": {
-          "ref": "8904d9c7-d51e-4cfe-b09f-d4561be805b6",
+          "ref": "f03b67f1-59ce-45c3-8c45-011649bedb53",
           "length": 7,
           "cycles": 1,
           "position": 1,
           "iteration": 0,
-          "httpRequestId": "d7c01841-7336-4a0e-8d82-20a17d070733"
+          "httpRequestId": "5fd39ba3-7de1-4890-8d58-db57d3b1f400"
         },
         "item": {
-          "id": "fb2a68c1-c69a-45f4-ae0e-145fb9a1d89f",
+          "id": "d29b8def-ff86-48b5-b17f-45c0676234cb",
           "name": "list products",
           "request": {
             "url": {
@@ -17974,7 +17981,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "dd824102-d238-443e-bdbb-6d9819789d38",
+                "id": "67c8890c-cb42-4b0d-b556-73a7451de115",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -17999,7 +18006,7 @@
                   "pm.expect(pm.response.text().length).to.be.above(0);",
                   "});"
                 ],
-                "_lastExecutionId": "2eca8d74-ced3-452a-a742-29aad6162a3c"
+                "_lastExecutionId": "500f9bb2-be66-40e4-810f-0c633e874bc7"
               }
             }
           ]
@@ -18037,7 +18044,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "4e302f51-9253-420f-97a6-2c1418614c23",
+              "value": "e99cb2be-c40a-4226-8e7c-51af97a91482",
               "system": true
             },
             {
@@ -18059,45 +18066,41 @@
           "method": "GET"
         },
         "response": {
-          "id": "dd200e8d-49a4-4eeb-b3e2-018ea6cdcdac",
+          "id": "f832a468-affc-4572-87db-350fce0f43ec",
           "status": "OK",
           "code": 200,
           "header": [
             {
+              "key": "date",
+              "value": "Sat, 09 May 2026 17:32:35 GMT"
+            },
+            {
+              "key": "expires",
+              "value": "Sat, 09 May 2026 17:32:45 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=10"
+            },
+            {
+              "key": "etag",
+              "value": "\"cET1bQ\""
+            },
+            {
               "key": "x-cloud-trace-context",
-              "value": "027c1c5b031dac0d87207ec16d570d0f"
+              "value": "b999664395af301a74c5fa95cfac9be4"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html"
             },
             {
               "key": "server",
               "value": "Google Frontend"
             },
             {
-              "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:58 GMT"
-            },
-            {
-              "key": "expires",
-              "value": "Fri, 24 Apr 2026 19:57:08 GMT"
-            },
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=10"
-            },
-            {
-              "key": "ETag",
-              "value": "\"cET1bQ\""
-            },
-            {
-              "key": "Content-Type",
-              "value": "text/html"
-            },
-            {
-              "key": "Content-Length",
-              "value": "20389"
-            },
-            {
-              "key": "Age",
-              "value": "0"
+              "key": "Transfer-Encoding",
+              "value": "chunked"
             }
           ],
           "stream": {
@@ -38495,10 +38498,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 293,
+          "responseTime": 1693,
           "responseSize": 20389
         },
-        "id": "fb2a68c1-c69a-45f4-ae0e-145fb9a1d89f",
+        "id": "d29b8def-ff86-48b5-b17f-45c0676234cb",
         "assertions": [
           {
             "assertion": "status code is 200",
@@ -38524,15 +38527,15 @@
       },
       {
         "cursor": {
-          "ref": "3dd4f2f3-59e1-4cd6-a776-43fd51f4d7b0",
+          "ref": "20dfb2da-4513-49e2-9f8d-da4522235f14",
           "length": 7,
           "cycles": 1,
           "position": 2,
           "iteration": 0,
-          "httpRequestId": "3c5417a4-c04b-4b34-8d7f-6118f65d03aa"
+          "httpRequestId": "237ee0d1-8d57-4e43-acc0-414dddf70ac7"
         },
         "item": {
-          "id": "0bf5eb20-b887-46cb-9a7d-f4cfea18d477",
+          "id": "1b0ef98a-5b5d-42e7-a07a-55b0d20f9015",
           "name": "listar a product",
           "request": {
             "url": {
@@ -38558,7 +38561,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "593a97cf-8e1e-47ca-85e0-4979168614ac",
+                "id": "f359903f-0884-4f05-8da1-57a21fbb219e",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -38583,7 +38586,7 @@
                   "pm.expect(pm.response.text().length).to.be.above(0);",
                   "});"
                 ],
-                "_lastExecutionId": "115fbf4d-a34f-4dfa-b3b7-d3189f0024d1"
+                "_lastExecutionId": "ae6481ab-98bc-493f-b86e-783da1a58522"
               }
             }
           ]
@@ -38627,7 +38630,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "bac637b1-9a91-43f5-bc14-3a4d5af9a25c",
+              "value": "c819563a-c573-44e1-b20b-339ff1416f80",
               "system": true
             },
             {
@@ -38649,45 +38652,41 @@
           "method": "GET"
         },
         "response": {
-          "id": "87a4a802-29b2-499d-a289-593c892288ea",
+          "id": "3de3b9f2-4b24-4d8a-b495-b3d29e092133",
           "status": "OK",
           "code": 200,
           "header": [
             {
+              "key": "date",
+              "value": "Sat, 09 May 2026 17:32:36 GMT"
+            },
+            {
+              "key": "expires",
+              "value": "Sat, 09 May 2026 17:32:46 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=10"
+            },
+            {
+              "key": "etag",
+              "value": "\"cET1bQ\""
+            },
+            {
               "key": "x-cloud-trace-context",
-              "value": "bfec63ee2bccc8ec87207ec16d570bfe"
+              "value": "1f7de6901baa6c0d74c5fa95cfac9ca7"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html"
             },
             {
               "key": "server",
               "value": "Google Frontend"
             },
             {
-              "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:58 GMT"
-            },
-            {
-              "key": "expires",
-              "value": "Fri, 24 Apr 2026 19:57:08 GMT"
-            },
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=10"
-            },
-            {
-              "key": "ETag",
-              "value": "\"cET1bQ\""
-            },
-            {
-              "key": "Content-Type",
-              "value": "text/html"
-            },
-            {
-              "key": "Content-Length",
-              "value": "20389"
-            },
-            {
-              "key": "Age",
-              "value": "0"
+              "key": "Transfer-Encoding",
+              "value": "chunked"
             }
           ],
           "stream": {
@@ -59085,10 +59084,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 273,
+          "responseTime": 1644,
           "responseSize": 20389
         },
-        "id": "0bf5eb20-b887-46cb-9a7d-f4cfea18d477",
+        "id": "1b0ef98a-5b5d-42e7-a07a-55b0d20f9015",
         "assertions": [
           {
             "assertion": "status code is 200",
@@ -59114,15 +59113,15 @@
       },
       {
         "cursor": {
-          "ref": "8b35a3e1-870c-4533-a570-330f51afb4e0",
+          "ref": "4b211505-21e6-418a-a91d-c92fc1cd9c0a",
           "length": 7,
           "cycles": 1,
           "position": 3,
           "iteration": 0,
-          "httpRequestId": "df40be24-c064-4c25-b37d-63d8b437ca83"
+          "httpRequestId": "56ed68d1-ac06-474e-b9a7-25886a22e612"
         },
         "item": {
-          "id": "4623eafc-edcf-44be-b392-77d28609e72b",
+          "id": "ca9df20b-2dcf-4afb-8c44-893e222b8954",
           "name": "get cart",
           "request": {
             "url": {
@@ -59142,7 +59141,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "906da724-e2d2-4dde-ba22-c69a7476ee8b",
+                "id": "2c12d24d-8925-4f18-a3bb-4794d3b0ff58",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -59167,7 +59166,7 @@
                   "pm.expect(pm.response.text().length).to.be.above(0);",
                   "});"
                 ],
-                "_lastExecutionId": "2d103300-f840-4117-b301-5f8e1e8aa2d7"
+                "_lastExecutionId": "9781d3fe-237c-44eb-8ea0-6b35b0086018"
               }
             }
           ]
@@ -59205,7 +59204,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "c1befbc8-2bf0-4095-a73d-40915b568cf8",
+              "value": "543b01d6-e9e2-411b-9589-b2dd81449483",
               "system": true
             },
             {
@@ -59227,45 +59226,41 @@
           "method": "GET"
         },
         "response": {
-          "id": "433f5938-bf89-45b3-8f96-b31c9e6a6057",
+          "id": "7e4875ad-79d9-4470-95eb-01a1d2f7bd8a",
           "status": "OK",
           "code": 200,
           "header": [
             {
+              "key": "date",
+              "value": "Sat, 09 May 2026 17:32:39 GMT"
+            },
+            {
+              "key": "expires",
+              "value": "Sat, 09 May 2026 17:32:49 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=10"
+            },
+            {
+              "key": "etag",
+              "value": "\"cET1bQ\""
+            },
+            {
               "key": "x-cloud-trace-context",
-              "value": "1bab95d4c4bb060387207ec16d570e79"
+              "value": "84235f6494a86bdb74c5fa95cfac9ee6"
+            },
+            {
+              "key": "content-type",
+              "value": "text/html"
             },
             {
               "key": "server",
               "value": "Google Frontend"
             },
             {
-              "key": "Content-Length",
-              "value": "22936"
-            },
-            {
-              "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:58 GMT"
-            },
-            {
-              "key": "expires",
-              "value": "Fri, 24 Apr 2026 19:57:08 GMT"
-            },
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=10"
-            },
-            {
-              "key": "ETag",
-              "value": "\"cET1bQ\""
-            },
-            {
-              "key": "Content-Type",
-              "value": "text/html"
-            },
-            {
-              "key": "Age",
-              "value": "0"
+              "key": "Transfer-Encoding",
+              "value": "chunked"
             }
           ],
           "stream": {
@@ -82210,10 +82205,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 287,
+          "responseTime": 2372,
           "responseSize": 22936
         },
-        "id": "4623eafc-edcf-44be-b392-77d28609e72b",
+        "id": "ca9df20b-2dcf-4afb-8c44-893e222b8954",
         "assertions": [
           {
             "assertion": "status code is 200",
@@ -82229,7 +82224,14 @@
           },
           {
             "assertion": "Tiempo de respuesta aceptable",
-            "skipped": false
+            "skipped": false,
+            "error": {
+              "name": "AssertionError",
+              "index": 3,
+              "test": "Tiempo de respuesta aceptable",
+              "message": "expected 2372 to be below 2000",
+              "stack": "AssertionError: expected 2372 to be below 2000\n   at Object.eval sandbox-script.js:4:4)"
+            }
           },
           {
             "assertion": "La respuesta no está vacía",
@@ -82239,15 +82241,15 @@
       },
       {
         "cursor": {
-          "ref": "c7607422-df9b-4d13-b517-2a13d075afeb",
+          "ref": "f9ea59da-e455-402b-bb36-6bcd956fa75d",
           "length": 7,
           "cycles": 1,
           "position": 4,
           "iteration": 0,
-          "httpRequestId": "fbf6772b-69a0-4562-823e-9b905ac3e898"
+          "httpRequestId": "92d2226d-0a85-4b75-a2b8-b106012da187"
         },
         "item": {
-          "id": "f85d5bba-50e0-460d-8222-67c6241e017d",
+          "id": "ed9a6f09-f600-4bf5-b627-4894132e455b",
           "name": "sign-up",
           "request": {
             "url": {
@@ -82279,7 +82281,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "db92ef57-653e-4cd4-862b-e268407c7240",
+                "id": "f4f87fc8-05ac-4e67-9a16-d1c444ace3af",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -82307,7 +82309,7 @@
                   "});",
                   ""
                 ],
-                "_lastExecutionId": "76591551-346b-46fa-aac7-f2ffbe87feb0"
+                "_lastExecutionId": "ef703c88-8646-4a18-abc9-853da01b5ac3"
               }
             }
           ]
@@ -82349,7 +82351,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "fa34d4f8-96e7-4bb7-a63f-69a4da3e3e02",
+              "value": "eb73b97a-ac8c-4777-920a-1996882200cc",
               "system": true
             },
             {
@@ -82385,7 +82387,7 @@
           }
         },
         "response": {
-          "id": "8ed3502e-3ad5-4c62-a2dd-f76b610d3034",
+          "id": "0742c696-9b38-4b18-a47d-b988c299f848",
           "status": "OK",
           "code": 200,
           "header": [
@@ -82403,11 +82405,11 @@
             },
             {
               "key": "x-cloud-trace-context",
-              "value": "420099a389f8ccc026ff1678c38013a0"
+              "value": "13e1d3f7c35dcfbfc714955e6dfa297c;o=1"
             },
             {
               "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:59 GMT"
+              "value": "Sat, 09 May 2026 17:32:45 GMT"
             },
             {
               "key": "server",
@@ -82468,10 +82470,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 502,
+          "responseTime": 5294,
           "responseSize": 44
         },
-        "id": "f85d5bba-50e0-460d-8222-67c6241e017d",
+        "id": "ed9a6f09-f600-4bf5-b627-4894132e455b",
         "assertions": [
           {
             "assertion": "Status code es 200",
@@ -82487,7 +82489,14 @@
           },
           {
             "assertion": "Tiempo de respuesta aceptable",
-            "skipped": false
+            "skipped": false,
+            "error": {
+              "name": "AssertionError",
+              "index": 3,
+              "test": "Tiempo de respuesta aceptable",
+              "message": "expected 5294 to be below 2000",
+              "stack": "AssertionError: expected 5294 to be below 2000\n   at Object.eval sandbox-script.js:4:5)"
+            }
           },
           {
             "assertion": "La respuesta no está vacía",
@@ -82497,15 +82506,15 @@
       },
       {
         "cursor": {
-          "ref": "62639b40-ccca-437d-9167-9b5c1368064b",
+          "ref": "df24e93c-c541-4489-87aa-442e8e3b92d4",
           "length": 7,
           "cycles": 1,
           "position": 5,
           "iteration": 0,
-          "httpRequestId": "2a1beca2-54ea-4a37-992d-a07d32df4624"
+          "httpRequestId": "c5ed226a-e874-405f-840b-70493b61bf00"
         },
         "item": {
-          "id": "c31f06ee-3559-4dfe-be15-4f7fe389667f",
+          "id": "a3fc993f-6235-42c7-9d2a-693c40327255",
           "name": "post login",
           "request": {
             "url": {
@@ -82537,7 +82546,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "a10a74b8-b508-47a3-bd77-7887f5b88f69",
+                "id": "5e3fe126-787f-41b6-b8b6-c27145027351",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -82565,7 +82574,7 @@
                   "});",
                   ""
                 ],
-                "_lastExecutionId": "2dd8965b-4637-4205-a8cc-3bd8d097c982"
+                "_lastExecutionId": "69a24a31-5a18-49fa-91d8-d7edc17e372c"
               }
             }
           ]
@@ -82607,7 +82616,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "b643acf7-f979-41b7-a71c-5ccd5f10a8d1",
+              "value": "064212cf-decd-4a68-9e16-43db91ee6505",
               "system": true
             },
             {
@@ -82643,7 +82652,7 @@
           }
         },
         "response": {
-          "id": "b108ca46-3a71-4d87-b0c9-891146a3ea69",
+          "id": "2608b0c8-f8fd-48bd-a5a9-cc6272b8cc04",
           "status": "OK",
           "code": 200,
           "header": [
@@ -82661,11 +82670,11 @@
             },
             {
               "key": "x-cloud-trace-context",
-              "value": "279b2814bc416f2f26ff1678c3801d5f"
+              "value": "dba885822e070003c714955e6dfa2c13"
             },
             {
               "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:59 GMT"
+              "value": "Sat, 09 May 2026 17:32:46 GMT"
             },
             {
               "key": "server",
@@ -82717,10 +82726,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 247,
+          "responseTime": 1638,
           "responseSize": 35
         },
-        "id": "c31f06ee-3559-4dfe-be15-4f7fe389667f",
+        "id": "a3fc993f-6235-42c7-9d2a-693c40327255",
         "assertions": [
           {
             "assertion": "Status code es 200",
@@ -82746,15 +82755,15 @@
       },
       {
         "cursor": {
-          "ref": "800d51ac-6c23-4bef-b7f0-00d5ca3064db",
+          "ref": "83139d6e-7e6f-4b37-a642-140d09ce61a3",
           "length": 7,
           "cycles": 1,
           "position": 6,
           "iteration": 0,
-          "httpRequestId": "9b2a1419-7f23-4b73-aecd-58dad6e7e8fb"
+          "httpRequestId": "042ec96c-330a-47ee-8d5c-e98a2c289b0a"
         },
         "item": {
-          "id": "0a9fe058-4b10-4584-bdeb-5f15047ae812",
+          "id": "b2291fb0-d5e0-490f-b9e8-a06ab8f929e2",
           "name": "place order",
           "request": {
             "url": {
@@ -82786,7 +82795,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "02de3be6-5c33-4d6d-898e-e01c90d7957d",
+                "id": "b22821e7-186c-4140-920b-2a82326bd94b",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -82813,7 +82822,7 @@
                   "pm.expect(pm.response.text().length).to.be.above(0);",
                   "});"
                 ],
-                "_lastExecutionId": "01bc0da8-d905-4290-ba94-e5a3a8c81fb3"
+                "_lastExecutionId": "494e96fc-d566-46bd-9766-21c0b8523923"
               }
             }
           ]
@@ -82855,7 +82864,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "776ce4f0-7034-43dc-bd78-d092b693bee4",
+              "value": "2956e1c3-a51e-4041-bb96-7e5438db4907",
               "system": true
             },
             {
@@ -82891,7 +82900,7 @@
           }
         },
         "response": {
-          "id": "14fa11ff-1e4d-4748-9c6c-b61b943b1ced",
+          "id": "6ee9b337-4d6f-46b2-ba0d-eb605399a14b",
           "status": "OK",
           "code": 200,
           "header": [
@@ -82909,11 +82918,11 @@
             },
             {
               "key": "x-cloud-trace-context",
-              "value": "161ae654aeae1ab826ff1678c3801163"
+              "value": "41660bd4875f99eec714955e6dfa2b83"
             },
             {
               "key": "date",
-              "value": "Fri, 24 Apr 2026 19:56:59 GMT"
+              "value": "Sat, 09 May 2026 17:32:51 GMT"
             },
             {
               "key": "server",
@@ -83210,10 +83219,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 250,
+          "responseTime": 5354,
           "responseSize": 280
         },
-        "id": "0a9fe058-4b10-4584-bdeb-5f15047ae812",
+        "id": "b2291fb0-d5e0-490f-b9e8-a06ab8f929e2",
         "assertions": [
           {
             "assertion": "Status code es 200",
@@ -83229,7 +83238,14 @@
           },
           {
             "assertion": "Tiempo de respuesta aceptable",
-            "skipped": false
+            "skipped": false,
+            "error": {
+              "name": "AssertionError",
+              "index": 3,
+              "test": "Tiempo de respuesta aceptable",
+              "message": "expected 5354 to be below 2000",
+              "stack": "AssertionError: expected 5354 to be below 2000\n   at Object.eval sandbox-script.js:4:7)"
+            }
           },
           {
             "assertion": "La respuesta no está vacía",
@@ -83241,7 +83257,1226 @@
     "transfers": {
       "responseTotal": 81305
     },
-    "failures": [],
+    "failures": [
+      {
+        "error": {
+          "name": "AssertionError",
+          "index": 3,
+          "test": "Tiempo de respuesta aceptable",
+          "message": "expected 4571 to be below 2000",
+          "stack": "AssertionError: expected 4571 to be below 2000\n   at Object.eval sandbox-script.js:4:1)",
+          "checksum": "8315eb0ae2d175788e001b9ff8c1d885",
+          "id": "a9493bf8-1548-4f4a-9580-70574f13d8b4",
+          "timestamp": 1778347953859,
+          "stacktrace": [
+            {
+              "fileName": "sandbox-script.js",
+              "lineNumber": 4,
+              "functionName": "Object.eval",
+              "typeName": "Object",
+              "methodName": "eval",
+              "columnNumber": 1,
+              "native": false
+            }
+          ]
+        },
+        "at": "assertion:3 in test-script",
+        "source": {
+          "id": "2b507a8b-4d19-4a2d-a96f-03617ed27b26",
+          "name": "get index",
+          "request": {
+            "url": {
+              "path": [
+                ""
+              ],
+              "host": [
+                "{{urlBase}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "8ad1fc7a-d9d1-4f9a-8380-ebe35c80edf4",
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                  "pm.test(\"status code is 200\", function(){",
+                  "pm.response.to.have.status(200);",
+                  "})",
+                  "",
+                  "pm.test(\"Es HTML\", function () {",
+                  "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                  "        .to.include(\"text/html\");",
+                  "});",
+                  "",
+                  "pm.test(\"Contiene objeto Store\", function () {",
+                  "pm.expect(pm.response.text()).to.include(\"Store\");",
+                  "});",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});",
+                  ""
+                ],
+                "_lastExecutionId": "18951e9f-b6d9-44f4-b4af-25fa4f647471"
+              }
+            }
+          ]
+        },
+        "parent": {
+          "id": "48d7054c-6cc1-4062-88dc-7a542a8d7524",
+          "name": "gets",
+          "item": [
+            {
+              "id": "2b507a8b-4d19-4a2d-a96f-03617ed27b26",
+              "name": "get index",
+              "request": {
+                "url": {
+                  "path": [
+                    ""
+                  ],
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "8ad1fc7a-d9d1-4f9a-8380-ebe35c80edf4",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto Store\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"Store\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});",
+                      ""
+                    ],
+                    "_lastExecutionId": "18951e9f-b6d9-44f4-b4af-25fa4f647471"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "d29b8def-ff86-48b5-b17f-45c0676234cb",
+              "name": "list products",
+              "request": {
+                "url": {
+                  "path": [
+                    "prod.html"
+                  ],
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "67c8890c-cb42-4b0d-b556-73a7451de115",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto Store\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"Store\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "500f9bb2-be66-40e4-810f-0c633e874bc7"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "1b0ef98a-5b5d-42e7-a07a-55b0d20f9015",
+              "name": "listar a product",
+              "request": {
+                "url": {
+                  "path": [
+                    "prod.html"
+                  ],
+                  "hash": "",
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "idp_",
+                      "value": "3"
+                    }
+                  ],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "f359903f-0884-4f05-8da1-57a21fbb219e",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto nexus\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "ae6481ab-98bc-493f-b86e-783da1a58522"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ca9df20b-2dcf-4afb-8c44-893e222b8954",
+              "name": "get cart",
+              "request": {
+                "url": {
+                  "path": [
+                    "cart.html"
+                  ],
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "2c12d24d-8925-4f18-a3bb-4794d3b0ff58",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto nexus\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "9781d3fe-237c-44eb-8ea0-6b35b0086018"
+                  }
+                }
+              ]
+            }
+          ],
+          "event": []
+        },
+        "cursor": {
+          "position": 0,
+          "iteration": 0,
+          "length": 7,
+          "cycles": 1,
+          "empty": false,
+          "eof": false,
+          "bof": true,
+          "cr": false,
+          "ref": "f1fa01f6-ca77-44b5-9a9f-6602f0346b7b",
+          "httpRequestId": "98f66155-de47-4077-a37e-e9e54d43a288",
+          "scriptId": "8ad1fc7a-d9d1-4f9a-8380-ebe35c80edf4",
+          "execution": "18951e9f-b6d9-44f4-b4af-25fa4f647471"
+        }
+      },
+      {
+        "error": {
+          "name": "AssertionError",
+          "index": 3,
+          "test": "Tiempo de respuesta aceptable",
+          "message": "expected 2372 to be below 2000",
+          "stack": "AssertionError: expected 2372 to be below 2000\n   at Object.eval sandbox-script.js:4:4)",
+          "checksum": "d549e56781983e0dfbe11a581fb41a92",
+          "id": "6353575f-baac-43c6-9c64-df85a3b78196",
+          "timestamp": 1778347959711,
+          "stacktrace": [
+            {
+              "fileName": "sandbox-script.js",
+              "lineNumber": 4,
+              "functionName": "Object.eval",
+              "typeName": "Object",
+              "methodName": "eval",
+              "columnNumber": 4,
+              "native": false
+            }
+          ]
+        },
+        "at": "assertion:3 in test-script",
+        "source": {
+          "id": "ca9df20b-2dcf-4afb-8c44-893e222b8954",
+          "name": "get cart",
+          "request": {
+            "url": {
+              "path": [
+                "cart.html"
+              ],
+              "host": [
+                "{{urlBase}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "2c12d24d-8925-4f18-a3bb-4794d3b0ff58",
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                  "pm.test(\"status code is 200\", function(){",
+                  "pm.response.to.have.status(200);",
+                  "})",
+                  "",
+                  "pm.test(\"Es HTML\", function () {",
+                  "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                  "        .to.include(\"text/html\");",
+                  "});",
+                  "",
+                  "pm.test(\"Contiene objeto nexus\", function () {",
+                  "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                  "});",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});"
+                ],
+                "_lastExecutionId": "9781d3fe-237c-44eb-8ea0-6b35b0086018"
+              }
+            }
+          ]
+        },
+        "parent": {
+          "id": "48d7054c-6cc1-4062-88dc-7a542a8d7524",
+          "name": "gets",
+          "item": [
+            {
+              "id": "2b507a8b-4d19-4a2d-a96f-03617ed27b26",
+              "name": "get index",
+              "request": {
+                "url": {
+                  "path": [
+                    ""
+                  ],
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "8ad1fc7a-d9d1-4f9a-8380-ebe35c80edf4",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto Store\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"Store\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});",
+                      ""
+                    ],
+                    "_lastExecutionId": "18951e9f-b6d9-44f4-b4af-25fa4f647471"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "d29b8def-ff86-48b5-b17f-45c0676234cb",
+              "name": "list products",
+              "request": {
+                "url": {
+                  "path": [
+                    "prod.html"
+                  ],
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "67c8890c-cb42-4b0d-b556-73a7451de115",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto Store\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"Store\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "500f9bb2-be66-40e4-810f-0c633e874bc7"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "1b0ef98a-5b5d-42e7-a07a-55b0d20f9015",
+              "name": "listar a product",
+              "request": {
+                "url": {
+                  "path": [
+                    "prod.html"
+                  ],
+                  "hash": "",
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "idp_",
+                      "value": "3"
+                    }
+                  ],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "f359903f-0884-4f05-8da1-57a21fbb219e",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto nexus\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "ae6481ab-98bc-493f-b86e-783da1a58522"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ca9df20b-2dcf-4afb-8c44-893e222b8954",
+              "name": "get cart",
+              "request": {
+                "url": {
+                  "path": [
+                    "cart.html"
+                  ],
+                  "host": [
+                    "{{urlBase}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "2c12d24d-8925-4f18-a3bb-4794d3b0ff58",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"status code is 200\", function(){",
+                      "pm.response.to.have.status(200);",
+                      "})",
+                      "",
+                      "pm.test(\"Es HTML\", function () {",
+                      "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+                      "        .to.include(\"text/html\");",
+                      "});",
+                      "",
+                      "pm.test(\"Contiene objeto nexus\", function () {",
+                      "pm.expect(pm.response.text()).to.include(\"STORE\");",
+                      "});",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "9781d3fe-237c-44eb-8ea0-6b35b0086018"
+                  }
+                }
+              ]
+            }
+          ],
+          "event": []
+        },
+        "cursor": {
+          "ref": "4b211505-21e6-418a-a91d-c92fc1cd9c0a",
+          "length": 7,
+          "cycles": 1,
+          "position": 3,
+          "iteration": 0,
+          "httpRequestId": "56ed68d1-ac06-474e-b9a7-25886a22e612",
+          "scriptId": "2c12d24d-8925-4f18-a3bb-4794d3b0ff58",
+          "execution": "9781d3fe-237c-44eb-8ea0-6b35b0086018"
+        }
+      },
+      {
+        "error": {
+          "name": "AssertionError",
+          "index": 3,
+          "test": "Tiempo de respuesta aceptable",
+          "message": "expected 5294 to be below 2000",
+          "stack": "AssertionError: expected 5294 to be below 2000\n   at Object.eval sandbox-script.js:4:5)",
+          "checksum": "eec82b17d0b4fd8e8cf890dc23d0672c",
+          "id": "d7ff6c8e-a53b-4b64-b870-749dc3e4d6bc",
+          "timestamp": 1778347965046,
+          "stacktrace": [
+            {
+              "fileName": "sandbox-script.js",
+              "lineNumber": 4,
+              "functionName": "Object.eval",
+              "typeName": "Object",
+              "methodName": "eval",
+              "columnNumber": 5,
+              "native": false
+            }
+          ]
+        },
+        "at": "assertion:3 in test-script",
+        "source": {
+          "id": "ed9a6f09-f600-4bf5-b627-4894132e455b",
+          "name": "sign-up",
+          "request": {
+            "url": {
+              "protocol": "https",
+              "path": [
+                "signup"
+              ],
+              "host": [
+                "api",
+                "demoblaze",
+                "com"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "f4f87fc8-05ac-4e67-9a16-d1c444ace3af",
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                  "pm.test(\"Status code es 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"mensaje de error cuando el usuario esta duplicado\", function () {",
+                  "    const jsonData = pm.response.json();",
+                  "    if (jsonData.errorMessage) {",
+                  "        pm.expect(jsonData.errorMessage).to.eql(\"This user already exist.\");",
+                  "    }",
+                  "});",
+                  "",
+                  "pm.test(\"respuesta es json\", function(){",
+                  "pm.response.to.be.json;",
+                  "})",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});",
+                  ""
+                ],
+                "_lastExecutionId": "ef703c88-8646-4a18-abc9-853da01b5ac3"
+              }
+            }
+          ]
+        },
+        "parent": {
+          "id": "f0273817-b8d7-4f25-8442-4bbf49be1fef",
+          "name": "posts",
+          "item": [
+            {
+              "id": "ed9a6f09-f600-4bf5-b627-4894132e455b",
+              "name": "sign-up",
+              "request": {
+                "url": {
+                  "protocol": "https",
+                  "path": [
+                    "signup"
+                  ],
+                  "host": [
+                    "api",
+                    "demoblaze",
+                    "com"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "f4f87fc8-05ac-4e67-9a16-d1c444ace3af",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"Status code es 200\", function () {",
+                      "    pm.response.to.have.status(200);",
+                      "});",
+                      "",
+                      "pm.test(\"mensaje de error cuando el usuario esta duplicado\", function () {",
+                      "    const jsonData = pm.response.json();",
+                      "    if (jsonData.errorMessage) {",
+                      "        pm.expect(jsonData.errorMessage).to.eql(\"This user already exist.\");",
+                      "    }",
+                      "});",
+                      "",
+                      "pm.test(\"respuesta es json\", function(){",
+                      "pm.response.to.be.json;",
+                      "})",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});",
+                      ""
+                    ],
+                    "_lastExecutionId": "ef703c88-8646-4a18-abc9-853da01b5ac3"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "a3fc993f-6235-42c7-9d2a-693c40327255",
+              "name": "post login",
+              "request": {
+                "url": {
+                  "protocol": "https",
+                  "path": [
+                    "login"
+                  ],
+                  "host": [
+                    "api",
+                    "demoblaze",
+                    "com"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "5e3fe126-787f-41b6-b8b6-c27145027351",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"Status code es 200\", function () {",
+                      "    pm.response.to.have.status(200);",
+                      "});",
+                      "",
+                      "pm.test(\"mensaje de error cuando el usuario es incorrecto\", function () {",
+                      "    const jsonData = pm.response.json();",
+                      "    if (jsonData.errorMessage) {",
+                      "        pm.expect(jsonData.errorMessage).to.eql(\"Wrong password.\");",
+                      "    }",
+                      "});",
+                      "",
+                      "pm.test(\"respuesta es json\", function(){",
+                      "pm.response.to.be.json;",
+                      "})",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});",
+                      ""
+                    ],
+                    "_lastExecutionId": "69a24a31-5a18-49fa-91d8-d7edc17e372c"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b2291fb0-d5e0-490f-b9e8-a06ab8f929e2",
+              "name": "place order",
+              "request": {
+                "url": {
+                  "protocol": "https",
+                  "path": [
+                    "view"
+                  ],
+                  "host": [
+                    "api",
+                    "demoblaze",
+                    "com"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"id\": 1\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "b22821e7-186c-4140-920b-2a82326bd94b",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"Status code es 200\", function () {",
+                      "    pm.response.to.have.status(200);",
+                      "});",
+                      "",
+                      "pm.test(\"mensaje contiente Samsung galaxy s6\", function () {",
+                      "    const jsonData = pm.response.json();",
+                      "    if (jsonData.errorMessage) {",
+                      "        pm.expect(jsonData.errorMessage).to.eql(\"Samsung galaxy s6\");",
+                      "    }",
+                      "});",
+                      "",
+                      "pm.test(\"respuesta es json\", function(){",
+                      "pm.response.to.be.json;",
+                      "})",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "494e96fc-d566-46bd-9766-21c0b8523923"
+                  }
+                }
+              ]
+            }
+          ],
+          "event": []
+        },
+        "cursor": {
+          "ref": "f9ea59da-e455-402b-bb36-6bcd956fa75d",
+          "length": 7,
+          "cycles": 1,
+          "position": 4,
+          "iteration": 0,
+          "httpRequestId": "92d2226d-0a85-4b75-a2b8-b106012da187",
+          "scriptId": "f4f87fc8-05ac-4e67-9a16-d1c444ace3af",
+          "execution": "ef703c88-8646-4a18-abc9-853da01b5ac3"
+        }
+      },
+      {
+        "error": {
+          "name": "AssertionError",
+          "index": 3,
+          "test": "Tiempo de respuesta aceptable",
+          "message": "expected 5354 to be below 2000",
+          "stack": "AssertionError: expected 5354 to be below 2000\n   at Object.eval sandbox-script.js:4:7)",
+          "checksum": "8612c56d6f98c58f6d59de583285866c",
+          "id": "957540ff-16c2-4441-915b-a5b2834bb45d",
+          "timestamp": 1778347972083,
+          "stacktrace": [
+            {
+              "fileName": "sandbox-script.js",
+              "lineNumber": 4,
+              "functionName": "Object.eval",
+              "typeName": "Object",
+              "methodName": "eval",
+              "columnNumber": 7,
+              "native": false
+            }
+          ]
+        },
+        "at": "assertion:3 in test-script",
+        "source": {
+          "id": "b2291fb0-d5e0-490f-b9e8-a06ab8f929e2",
+          "name": "place order",
+          "request": {
+            "url": {
+              "protocol": "https",
+              "path": [
+                "view"
+              ],
+              "host": [
+                "api",
+                "demoblaze",
+                "com"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "b22821e7-186c-4140-920b-2a82326bd94b",
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                  "pm.test(\"Status code es 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"mensaje contiente Samsung galaxy s6\", function () {",
+                  "    const jsonData = pm.response.json();",
+                  "    if (jsonData.errorMessage) {",
+                  "        pm.expect(jsonData.errorMessage).to.eql(\"Samsung galaxy s6\");",
+                  "    }",
+                  "});",
+                  "",
+                  "pm.test(\"respuesta es json\", function(){",
+                  "pm.response.to.be.json;",
+                  "})",
+                  "",
+                  "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                  "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                  "});",
+                  "",
+                  "pm.test(\"La respuesta no está vacía\", function () {",
+                  "pm.expect(pm.response.text().length).to.be.above(0);",
+                  "});"
+                ],
+                "_lastExecutionId": "494e96fc-d566-46bd-9766-21c0b8523923"
+              }
+            }
+          ]
+        },
+        "parent": {
+          "id": "f0273817-b8d7-4f25-8442-4bbf49be1fef",
+          "name": "posts",
+          "item": [
+            {
+              "id": "ed9a6f09-f600-4bf5-b627-4894132e455b",
+              "name": "sign-up",
+              "request": {
+                "url": {
+                  "protocol": "https",
+                  "path": [
+                    "signup"
+                  ],
+                  "host": [
+                    "api",
+                    "demoblaze",
+                    "com"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "f4f87fc8-05ac-4e67-9a16-d1c444ace3af",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"Status code es 200\", function () {",
+                      "    pm.response.to.have.status(200);",
+                      "});",
+                      "",
+                      "pm.test(\"mensaje de error cuando el usuario esta duplicado\", function () {",
+                      "    const jsonData = pm.response.json();",
+                      "    if (jsonData.errorMessage) {",
+                      "        pm.expect(jsonData.errorMessage).to.eql(\"This user already exist.\");",
+                      "    }",
+                      "});",
+                      "",
+                      "pm.test(\"respuesta es json\", function(){",
+                      "pm.response.to.be.json;",
+                      "})",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});",
+                      ""
+                    ],
+                    "_lastExecutionId": "ef703c88-8646-4a18-abc9-853da01b5ac3"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "a3fc993f-6235-42c7-9d2a-693c40327255",
+              "name": "post login",
+              "request": {
+                "url": {
+                  "protocol": "https",
+                  "path": [
+                    "login"
+                  ],
+                  "host": [
+                    "api",
+                    "demoblaze",
+                    "com"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"username\": \"testuser\",\n  \"password\": \"1234\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "5e3fe126-787f-41b6-b8b6-c27145027351",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"Status code es 200\", function () {",
+                      "    pm.response.to.have.status(200);",
+                      "});",
+                      "",
+                      "pm.test(\"mensaje de error cuando el usuario es incorrecto\", function () {",
+                      "    const jsonData = pm.response.json();",
+                      "    if (jsonData.errorMessage) {",
+                      "        pm.expect(jsonData.errorMessage).to.eql(\"Wrong password.\");",
+                      "    }",
+                      "});",
+                      "",
+                      "pm.test(\"respuesta es json\", function(){",
+                      "pm.response.to.be.json;",
+                      "})",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});",
+                      ""
+                    ],
+                    "_lastExecutionId": "69a24a31-5a18-49fa-91d8-d7edc17e372c"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b2291fb0-d5e0-490f-b9e8-a06ab8f929e2",
+              "name": "place order",
+              "request": {
+                "url": {
+                  "protocol": "https",
+                  "path": [
+                    "view"
+                  ],
+                  "host": [
+                    "api",
+                    "demoblaze",
+                    "com"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"id\": 1\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "id": "b22821e7-186c-4140-920b-2a82326bd94b",
+                    "type": "text/javascript",
+                    "packages": {},
+                    "exec": [
+                      "pm.test(\"Status code es 200\", function () {",
+                      "    pm.response.to.have.status(200);",
+                      "});",
+                      "",
+                      "pm.test(\"mensaje contiente Samsung galaxy s6\", function () {",
+                      "    const jsonData = pm.response.json();",
+                      "    if (jsonData.errorMessage) {",
+                      "        pm.expect(jsonData.errorMessage).to.eql(\"Samsung galaxy s6\");",
+                      "    }",
+                      "});",
+                      "",
+                      "pm.test(\"respuesta es json\", function(){",
+                      "pm.response.to.be.json;",
+                      "})",
+                      "",
+                      "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+                      "pm.expect(pm.response.responseTime).to.be.below(2000);",
+                      "});",
+                      "",
+                      "pm.test(\"La respuesta no está vacía\", function () {",
+                      "pm.expect(pm.response.text().length).to.be.above(0);",
+                      "});"
+                    ],
+                    "_lastExecutionId": "494e96fc-d566-46bd-9766-21c0b8523923"
+                  }
+                }
+              ]
+            }
+          ],
+          "event": []
+        },
+        "cursor": {
+          "ref": "83139d6e-7e6f-4b37-a642-140d09ce61a3",
+          "length": 7,
+          "cycles": 1,
+          "position": 6,
+          "iteration": 0,
+          "httpRequestId": "042ec96c-330a-47ee-8d5c-e98a2c289b0a",
+          "scriptId": "b22821e7-186c-4140-920b-2a82326bd94b",
+          "execution": "494e96fc-d566-46bd-9766-21c0b8523923"
+        }
+      }
+    ],
     "error": null
   }
 }
