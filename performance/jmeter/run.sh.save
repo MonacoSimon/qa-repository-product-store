@@ -1,0 +1,20 @@
+for test in "$TEST_PLAN_DIR"/*.jmx; do
+    filename=$(basename "$test" .jmx)
+
+    echo "Ejecutando: $filename"
+
+    rm -rf "$RESULTS_DIR/${filename}-report"
+
+    docker run --rm \
+        -v "$TEST_PLAN_DIR":/tests \
+        -v "$RESULTS_DIR":/results \
+        justb4/jmeter \
+        -n \
+        -t /tests/$(basename "$test") \
+        -l /results/${filename}.jtl \
+        -e \
+        -o /results/${filename}-report
+
+    echo "✔ Terminado: $filename"
+    echo "-----------------------------"
+done

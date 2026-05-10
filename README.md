@@ -1,5 +1,13 @@
 # Docker Compose – QA Automation Suite (Demoblaze)
 
+---
+
+![Jenkins Pipeline](https://img.shields.io/badge/Jenkins-Pipeline-blue)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue)
+![Cypress](https://img.shields.io/badge/Cypress-E2E-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
 ## Descripción
 
 Este módulo permite ejecutar de forma centralizada los distintos tipos de pruebas del proyecto utilizando **Docker Compose**.
@@ -117,3 +125,31 @@ Uso de red interna (qa-network) para aislamiento
 Conclusión
 
 El uso de Docker Compose permite unificar la ejecución de pruebas funcionales, de integración y de seguridad en un único comando, facilitando la automatización y escalabilidad del proceso de QA.
+
+
+# Requisitos
+
+## Requisitos mínimos
+
+- Linux
+- Docker
+- Docker Compose
+
+---
+
+# Verificación del Entorno
+
+El proyecto incluye un script de validación:
+
+```bash
+chmod +x set-up.sh
+./set-up.sh
+```
+
+Este script verifica:
+
+- Instalación de Docker
+- Instalación de Docker Compose
+- Estructura mínima necesaria
+
+---
