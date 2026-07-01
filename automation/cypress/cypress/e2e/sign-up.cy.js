@@ -1,13 +1,19 @@
+import HomePage from '../pages/HomePage'
+import SignUp from '../pages/SignUp'
+
+
 describe('template spec', () => {
+  const homePage = new HomePage();
+  const signUp = new SignUp();
+
   it('passes', () => {
-    cy.visit('https://www.demoblaze.com/index.html')
-    cy.get('#signin2').click()
-    cy.get('#sign-username').type('testuser')
-    cy.get('#sign-password').type('testpassword')
-    cy.get('#signInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary').click()
-    cy.on('window:alert', (str) => {
-    expect(str).to.equal('This user already exist.')
+    homePage.visit();
+    const email = `testuser${Date.now()}@example.com`;
+    signUp.fill(email)
+    cy.on('window:alert', (alertText) => {
+      expect(alertText).to.equal('Sign up successful.')
     })
 
-})
+
+  })
 })

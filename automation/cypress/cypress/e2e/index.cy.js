@@ -1,6 +1,10 @@
+import HomePage from '../pages/HomePage'
+
 describe('template spec', () => {
+  const homePage = new HomePage();
+
   it('passes', () => {
-    cy.visit('https://www.demoblaze.com/index.html')
+    homePage.visit();
     cy.get('#nava').should('be.visible')
   })
 })

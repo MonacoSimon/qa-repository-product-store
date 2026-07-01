@@ -70,6 +70,15 @@ api-testing/newman/results-newman/report.html
 - Ejecuta todos los tests de Cypress en modo headless
 - Monta los tests desde el host
 
+### Patrón de Diseño (Arquitectura)
+
+La suite de pruebas E2E está desarrollada bajo el patrón de diseño **Page Object Model (POM)**. Esta arquitectura permite separar la lógica de negocio y las interacciones con la interfaz de usuario de las aserciones de los casos de prueba.
+
+Beneficios implementados:
+- **Mantenibilidad:** Los selectores del DOM y los métodos de interacción se centralizan en clases específicas por página, facilitando su actualización ante cambios en la interfaz.
+- **Reutilización de código:** Se reducen las duplicaciones mediante la abstracción de flujos comunes de usuario (como el proceso de registro, inicio de sesión y adición de productos al carrito).
+- **Legibilidad:** Los archivos de pruebas (`.cy.js`) mantienen un enfoque semántico y limpio, enfocado estrictamente en los flujos de validación y criterios de aceptación.
+
 ---
 
 ### 3. Security Tests (OWASP ZAP)

@@ -1,8 +1,14 @@
+import HomePage from '../pages/HomePage'
+import BuyProduct from '../pages/BuyProduct'
+
 describe('template spec', () => {
+  const homePage = new HomePage();
+  const buyProduct = new BuyProduct();
+
   it('passes', () => {
-    cy.visit('https://www.demoblaze.com/index.html')
+    homePage.visit()
     cy.wait(2000)
-    cy.get(':nth-child(2) > .card > .card-block > .card-title > .hrefch').click()
+    buyProduct.buy(':nth-child(2) > .card > .card-block > .card-title > .hrefch');
     cy.get('.item > img').should('be.visible')
     cy.get('.col-sm-12 > .btn').click()
     cy.on('window:alert', (text) => {

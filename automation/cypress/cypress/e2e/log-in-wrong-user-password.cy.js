@@ -1,21 +1,18 @@
+import HomePage from '../pages/HomePage'
+import FillLogin from '../pages/FillLogin'
+
 describe('Login test', () => {
+  const homePage = new HomePage();
+  const fillLogin = new FillLogin();
+
   it('should show wrong password alert', () => {
 
-    cy.visit('https://www.demoblaze.com/index.html')
-
+    homePage.visit();
     cy.get('#login2').click()
 
     cy.get('#logInModal').should('be.visible')
-
-    cy.get('#loginusername')
-      .should('be.visible')
-      .clear()
-      .type('Simon')
-
-    cy.get('#loginpassword')
-      .should('be.visible')
-      .clear()
-      .type('wrongpass')
+    const email = 'example@example.com';
+    fillLogin.fill(email);
 
     cy.on('window:alert', (text) => {
       expect(text).to.equal('Wrong password.')
